@@ -3,3 +3,32 @@ This folder contains:
 2. Dashboard of Mental Health Treatment
 3. Different Inference Diagrams 
 4. Osmi Mental Health Tech Surveys from 2016 to 2020 years
+
+Column features in cleaned_data file:
+-> age
+-> gender
+-> country
+-> race
+-> mental_health: does the individual currently have mental health disorder?
+-> mental_health_diagnosed: was the individual diagnosed from a professional for mental health disorder?
+-> family_history: Do you have a family history of mental illness?
+-> treatment: Have you sought treatment for a mental health condition?
+-> self_employed: Are you self-employed?
+-> work_interfere: If you have a mental health condition, do you feel that it interferes with your work?
+-> no_employees: How many employees does your company or organization have?
+-> tech_company: Is your employer primarily a tech company/organization?
+-> benefits: Does your employer provide mental health benefits?
+-> care_options: Do you know the options for mental health care your employer provides?
+-> wellness_program: Has your employer ever discussed mental health as part of an employee wellness program?
+-> seek_help: Does your employer provide resources to learn more about mental health issues and how to seek help?
+-> anonymity: Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?
+-> leave: How easy is it for you to take medical leave for a mental health condition?
+-> coworkers: Would you be willing to discuss a mental health issue with your coworkers?
+-> mental_importance: how much importance does your employer place on mental health?
+-> physical_importance: how much importance does your employer place on physical health?
+-> supervisor: Would you feel comfortable discussing a mental health issue with your direct supervisor?
+-> mental_health_interview: Would you bring up your mental health with a potential employer in an interview?
+-> mental_vs_physical: Would you feel more comfortable talking to your coworkers about your physical health or your mental health?
+-> obs_neg_response: Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?
+-> neg_consequence_coworker: Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace
+
