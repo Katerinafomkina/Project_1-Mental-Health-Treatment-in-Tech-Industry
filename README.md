@@ -20,7 +20,11 @@ What I did in my project to study mental health treatment:
 11. Models, that I trained: Logistic regression, Decision tree, Random Forest, CatBoost, AdaBoost with base model Decision Tree, Adaboost with based model Extra Tree, XGBoost. I tuned every model with hyperparameters using GridSearchCV and Cross-Validation.
 12. I created Dashboard to clearly see insights and make inferences.
 
+The final prediction consists of 0 and 1. 0 means the person is not needed any mental health treatment and 1 means the person is needed mental health treatment.
+
+Using Employee records, I built various machine learning models. From all the models, CatBoost Classifier achieved 87.11% mean accuracy with an AUC of 0.8334, AdaBoost Classifier with base model Extra Tree achieved 88%  mean accuracy with an AUC of 0.7901, XGBoost Classifier achieved 87.11%  mean accuracy with an AUC of 0.8195, along with that I draw some insights from the data via data analysis and visualization.
 
  
  Conclusion:
  It is very important to have a good mental health. An employer or managers should talk to employees about their mental health and benefits to prevent problems and help employees find information and receive timely mental health treatment. 
+ 
