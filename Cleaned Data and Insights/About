@@ -32,3 +32,99 @@ Column features in cleaned_data file:
 -> obs_neg_response: Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?
 -> neg_consequence_coworker: Have your observations of how another individual who discussed a mental health issue made you less likely to reveal a mental health issue yourself in your current workplace
 
+
+Outputs of Models:
+
+1. Logistic Regression Model
+train_score--> 0.86
+test_score--> 0.8245
+mean_accuracy--> 0.8548
+roc_auc_score--> 0.8171
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.78   |  0.22 |
+    -----------------
+   |        |       |
+   | 0.15   |  0.85 |
+    -----------------
+    
+2. Decision Tree Classifier
+train_score--> 0.8541
+test_score--> 0.8323
+mean_accuracy--> 0.84
+roc_auc_score--> 0.8343
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.84   |  0.16 |
+    -----------------
+   |        |       |
+   | 0.17   |  0.83 |
+    -----------------
+    
+3. Random Forest Classifier
+train_score--> 0.8622
+test_score--> 0.8363
+mean_accuracy--> 0.8615
+roc_auc_score--> 0.8422
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.87   |  0.13 |
+    -----------------
+   |        |       |
+   | 0.19   |  0.81 |
+    -----------------
+    
+ 4. CatBoost Classifier
+train_score--> 0.9681
+test_score--> 0.8343
+mean_accuracy--> 0.8711
+roc_auc_score--> 0.8334
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.83   |  0.17 |
+    -----------------
+   |        |       |
+   | 0.16   |  0.84 |
+    -----------------
+    
+5. AdaBoost Classifier with base model Extra Tree
+train_score--> 0.9948
+test_score--> 0.8008
+mean_accuracy--> 0.88
+roc_auc_score--> 0.7901
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.74   |  0.26 |
+    -----------------
+   |        |       |
+   | 0.16   |  0.84 |
+    -----------------
+    
+6. XGBoost Classifier
+train_score--> 0.9985
+test_score--> 0.8225
+mean_accuracy--> 0.8711
+roc_auc_score--> 0.8195
+
+    Confusion Matrix          
+    -----------------
+   |        |       |
+   | 0.80   |  0.20 |
+    -----------------
+   |        |       |
+   | 0.17   |  0.83 |
+    -----------------
+    
+ As we can see Random Forest does a good job as well as almost all trained models.
+
+
