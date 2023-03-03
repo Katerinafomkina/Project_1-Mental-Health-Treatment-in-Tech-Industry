@@ -1,0 +1,8 @@
+Name                       	Precision	Recall	F1-Score	Roc-Auc
+Decision Tree              	0.86     	0.78  	0.82    	0.79
+Logistic Regression        	0.85     	0.85  	0.85    	0.81
+Random Forest              	0.88     	0.83  	0.86    	0.83
+CatBoost Classifier        	0.87     	0.85  	0.86    	0.83
+AdaBoost base Decision Tree	0.83     	0.85  	0.84    	0.8
+AdaBoost base Extra Tree   	0.84     	0.85  	0.84    	0.8
+XGB                        	0.84     	0.83  	0.84    	0.8
