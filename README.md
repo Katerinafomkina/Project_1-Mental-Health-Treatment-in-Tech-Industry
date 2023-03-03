@@ -22,8 +22,32 @@ What I did in my project to study mental health treatment:
 
 The final prediction consists of 0 and 1. 0 means the person is not needed any mental health treatment and 1 means the person is needed mental health treatment.
 
-Using Employee records, I built various machine learning models. From all the models, CatBoost Classifier achieved 87.11% mean accuracy with an AUC of 0.8334, AdaBoost Classifier with base model Extra Tree achieved 88%  mean accuracy with an AUC of 0.7901, XGBoost Classifier achieved 87.11%  mean accuracy with an AUC of 0.8195, along with that I draw some insights from the data via data analysis and visualization.
 
+Using Employee records, I built various machine learning models, along with that I draw some insights from the data via data analysis and visualization.
+
+
+
+╒═════════════════════════════╤═════════════╤══════════╤════════════╤═══════════╕
+│ Name                        │   Precision │   Recall │   F1-Score │   Roc-Auc │
+╞═════════════════════════════╪═════════════╪══════════╪════════════╪═══════════╡
+│ Decision Tree               │        0.86 │     0.78 │       0.82 │      0.79 │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ Logistic Regression         │        0.85 │     0.85 │       0.85 │      0.81 │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ Random Forest               │        0.88 │     0.83 │       0.86 │      0.83 │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ CatBoost Classifier         │        0.87 │     0.85 │       0.86 │      0.83 │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ AdaBoost base Decision Tree │        0.83 │     0.85 │       0.84 │      0.8  │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ AdaBoost base Extra Tree    │        0.84 │     0.85 │       0.84 │      0.8  │
+├─────────────────────────────┼─────────────┼──────────┼────────────┼───────────┤
+│ XGB                         │        0.84 │     0.83 │       0.84 │      0.8  │
+______________________________________________________________________________________
+
+Dataset is highly imbalanced, so Accuracy metric is irrelevant here. The main metric for the project is Recall, because it is very important to find the problem with mental health as soon as possible, so we need to decrease the number of false negatives predictions. 
+
+From all the models, CatBoost Classifier, Adaboost Classifier and Logistic Regression achieved achieved a Recall of 85%. The CatBoost classifier has higher Precision compared to the models.
  
  Conclusion:
  It is very important to have a good mental health. An employer or managers should talk to employees about their mental health and benefits to prevent problems and help employees find information and receive timely mental health treatment. 
